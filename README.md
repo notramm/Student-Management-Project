@@ -26,7 +26,22 @@ A modern web application built with **Laravel 10** to manage student records eff
 
 ---
 
-🙌 Credits
-Laravel
-Barryvdh DomPDF
-Bootstrap
+# Clone the repository
+git clone [https://github.com/prachit082/Student-Management.git](https://github.com/notramm/Student-Management-Project.git)
+
+# Install dependencies
+composer install
+
+# Set up environment
+cp .env.example .env
+php artisan key:generate
+
+# Configure your database in .env
+# Then run migrations
+php artisan migrate
+
+# (Optional) Seed the database
+php artisan db:seed
+
+# Start the development server
+php artisan serve
