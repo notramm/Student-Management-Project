@@ -27,7 +27,7 @@ A modern web application built with **Laravel 10** to manage student records eff
 ---
 
 # Clone the repository
-git clone [https://github.com/prachit082/Student-Management.git](https://github.com/notramm/Student-Management-Project.git)
+git clone [https://github.com/notramm/Student-Management-Project](https://github.com/notramm/Student-Management-Project.git)
 
 # Install dependencies
 composer install
