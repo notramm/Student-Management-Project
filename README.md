@@ -26,22 +26,25 @@ A modern web application built with **Laravel 10** to manage student records eff
 
 ---
 
-# Clone the repository
-git clone [https://github.com/notramm/Student-Management-Project](https://github.com/notramm/Student-Management-Project.git)
+## 📦 Installation Guide
 
-# Install dependencies
+### ⚙️ Clone the Repository
+git clone https://github.com/notramm/Student-Management-Project.git
+cd Student-Management-Project
+
+### Install dependencies
 composer install
 
-# Set up environment
+### Set up environment
 cp .env.example .env
 php artisan key:generate
 
-# Configure your database in .env
-# Then run migrations
+### Configure your database in .env
+#### Then run migrations
 php artisan migrate
 
-# (Optional) Seed the database
+### (Optional) Seed the database
 php artisan db:seed
 
-# Start the development server
+### Start the development server
 php artisan serve
